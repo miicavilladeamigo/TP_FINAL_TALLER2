@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Open+Sans:wght@700&display=swap');
+@import url("informacion-general.css");
+body{
+  width: 1200px;
+  height: 650px;
+  background-image:linear-gradient(#1C792B, #345138);
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  color:#fff;
+}
+.dieta-vegana{
+  font-size: 55px;
+  margin-left: 134px;
+}
