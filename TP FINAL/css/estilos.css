@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500&family=Open+Sans:wght@700&display=swap');
+/*--- ESTO ES UN CRITERIO DE ORDEN, HAGO UN CSS POR CADA CONTENEDOR DE LA PAGINA ----*/
 @import url("informacion-general.css");
 body{
   width: 1200px;
