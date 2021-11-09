@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.ConsumoAgua{
+background-color: #1C792B;
+margin-left: 40px;
+margin-right: 150px;
+}
+
+.consumodelaguaTexto{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+ color: white;
+ padding-left: 20px;
+ padding-bottom: 5px;
+ padding-top: 5px;
+}
+
+.volver{
+  float: right;
+  margin-top: -4.6em;
+}
+.boton{
+  background-color: #1C792B;
+  color: #fff;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 4em;
+}
+
+.mapa{
+  margin-left: 9vw;
+}
+
+#eeuu{
+  position: absolute;
+  margin-left: 30vw;
+}
+
+#hEeuu{
+  position: absolute;
+  margin-left: 18.5vw;
+  margin-top: 25vh;
+  cursor: pointer;
+}
