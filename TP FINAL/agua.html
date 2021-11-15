@@ -2,9 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Consumo del agua</title>
     <link rel="stylesheet" href="css/agua.css">
-    <script src="js/agua.js"></script>
+
   </head>
   <body>
 
@@ -13,6 +14,11 @@
   <div class="ConsumoAgua">
     <h2 class="consumodelaguaTexto">Consumo del agua</h2>
   </div>
+  <section class="volver">
+    <a href="index.html">
+    <input class="boton-agua" type="submit" name="" value="Volver">
+    </a>
+  </section>
   <div class="ConsumoAguaCadaAnimal">
     <h2 class="ConsumoAguaCadaAnimalTexto">Conoce el consumo de agua de cada animal</h2>
   </div>
@@ -47,12 +53,22 @@
 <div class="ProduccionVaca">
  <p id="vaca1ID" class="ParaLaProduccionDe">Para la produccion de</p>
 </div>
-
-
+  <div class="slidecontainer">
+   <input type="range" min="0" max="10" value="50" class="slider" id="myRange">
+     <p><span class="kilo"id="demo"></span> kilo</p>
+     <p class="carne-vaca">Carne de vaca se necesitan:<span class="carne"id="demo2">0<br></span> litros de agua</p>
+  </div>
+  <div class="veganos">
+    <p class="personas">Esa cantidad es suficiente para <br>
+      alimentar veganamente durante un día a</p>
+    <hr class="linea" size=4px noshade="noshade">
+    <p class="numero"><span class="numero-persona"id="demo3"></span> personas</p>
+  </div>
 </div>
 
 
 
-
+    <script src="js/agua.js"></script>
+    <script src="js/boton.js"></script>
   </body>
 </html>
