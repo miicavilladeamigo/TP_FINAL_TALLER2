@@ -34,16 +34,15 @@
   background: #04AA6D;
   cursor: pointer;
 }
+.kilo-numero{
+  font-family: 'Asap', sans-serif;
+  margin-left: 210px;
+  font-size: 17px;
+}
 .kilo{
     font-family: 'Asap', sans-serif;
     margin-left: 420px;
     font-size: 21.43px;
-}
-.carne-vaca{
-  font-family: 'Asap', sans-serif;
-  margin-left: 420px;
-  font-size: 25px;
-  font-weight: 500;
 }
 .carne{
   font-family: 'Asap', sans-serif;

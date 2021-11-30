@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Consumo del agua</title>
     <link rel="stylesheet" href="css/agua.css">
-    <script src="js/agua.js"></script>
+
   </head>
   <body>
 
@@ -47,12 +47,20 @@
 <div class="ProduccionVaca">
  <p id="vaca1ID" class="ParaLaProduccionDe">Para la produccion de</p>
 </div>
-
-
+<div class="slidecontainer">
+  <input type="range" min="0" max="10" value="50" class="slider" id="myRange">
+  <p class="kilo-numero"><span class="kilo-numero" id="demo">0</span> kilos de carne</p>
+  <p class="kilo">carne de vaca se necesitan<span class="carne" id="demo2">0</span> litros de agua</p>
+  <p class="personas">Esa cantidad es suficiente para <br>
+    alimentar veganamente durante un día a  </p>
+  <hr class="linea" size=2px noshade="noshade">
+  <p class="numero"><span class="carne" id="demo3">0</span> personas</p>
+</div>
 </div>
 
 
-
+    <script src="js/agua.js"></script>
+    <script src="js/boton.js"></script>
 
   </body>
 </html>
