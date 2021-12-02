@@ -54,6 +54,10 @@ margin-right: 150px;
 }
 .usa{
   fill: #8CFF9F;
+  stroke-width: 2px;
+}
+.usa:hover{
+  stroke-width: 3px;
 }
 
 #brasil{
@@ -63,6 +67,10 @@ margin-right: 150px;
 }
 #BR{
   fill: #50D867;
+  stroke-width: 2px;
+}
+#BR:hover{
+    stroke-width: 3px;
 }
 
 #argentina{
@@ -72,6 +80,10 @@ margin-right: 150px;
 }
 .Argentina{
   fill: #8CFF9F;
+  stroke-width: 2px;
+}
+.Argentina:hover{
+    stroke-width: 3px;
 }
 
 #espana{
@@ -81,6 +93,10 @@ margin-right: 150px;
 }
 #ES{
     fill: #50D867;
+    stroke-width: 2px;
+}
+#ES:hover{
+    stroke-width: 3px;
 }
 
 #irlanda{
@@ -90,6 +106,10 @@ margin-right: 150px;
 }
 #IE{
   fill: #2CBF45;
+  stroke-width: 2px;
+}
+#IE:hover{
+    stroke-width: 3px;
 }
 
 #inglaterra{
@@ -99,6 +119,10 @@ margin-right: 150px;
 }
 .UnitedKingdom{
 fill: #2CBF45;
+stroke-width: 2px;
+}
+.UnitedKingdom:hover{
+    stroke-width: 3px;
 }
 
 #suiza{
@@ -108,6 +132,10 @@ fill: #2CBF45;
 }
 #CH{
     fill: #50D867;
+    stroke-width: 2px;
+}
+#CH:hover{
+    stroke-width: 3px;
 }
 
 #alemania{
@@ -117,6 +145,10 @@ fill: #2CBF45;
 }
 #DE{
     fill: #8CFF9F;
+    stroke-width: 2px;
+}
+#DE:hover{
+    stroke-width: 3px;
 }
 
 #checa{
@@ -126,6 +158,10 @@ fill: #2CBF45;
 }
 #CZ{
     fill: #2CBF45;
+    stroke-width: 2px;
+}
+#CZ:hover{
+    stroke-width: 3px;
 }
 
 #japon{
@@ -135,6 +171,10 @@ fill: #2CBF45;
 }
 .Japan{
     fill: #50D867;
+    stroke-width: 2px;
+}
+.Japan:hover{
+    stroke-width: 3px;
 }
 
 #india{
@@ -144,6 +184,10 @@ fill: #2CBF45;
 }
 #IN{
   fill: #239937;
+  stroke-width: 2px;
+}
+#IN:hover{
+    stroke-width: 3px;
 }
 
 .slideContainer{
@@ -161,15 +205,15 @@ fill: #2CBF45;
   width: 100%;
   height: 20px;
   outline: none;
-  opacity: 0.7;
+  opacity: 1;
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
   border-radius: 12px;
-  box-shadow: 0 1px 5px 1px black;
+  box-shadow: 0 1px 3px 1px black;
 }
 
 .slider:hover{
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .slider::-webkit-slider-thumb{
@@ -181,7 +225,7 @@ fill: #2CBF45;
   border-radius: 35%;
   cursor: pointer;
 }
-
+/*
 .slider::after{
   content: '2021';
   color: black;
@@ -189,6 +233,7 @@ fill: #2CBF45;
   position: absolute;
   left: 93%;
   top: 121%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .slider::before{
@@ -198,13 +243,16 @@ fill: #2CBF45;
   position: absolute;
   left: -4%;
   top: 121%;
-}
+  font-family: 'Open Sans', sans-serif;
+} */
 
-.slider::before{
-  content: '2000';
+datalist {
+  display: flex;
+  justify-content: space-between;
   color: black;
-  font-size: 1.5em;
+  width: 26%;
   position: absolute;
-  left: -4%;
-  top: 121%;
+  margin-left: 38vw;
+  margin-top: 86vh;
+  font-family: 'Open Sans', sans-serif;
 }

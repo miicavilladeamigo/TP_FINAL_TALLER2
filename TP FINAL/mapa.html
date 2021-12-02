@@ -71,8 +71,15 @@
   </div>
 
 <div class="slideContainer">
-  <input type="range" min="0" max="100" value="1" id="myRange" class="slider">
+  <input type="range" min="0" max="3" value="1" id="myRange" class="slider" list="tickmarks">
 </div>
+
+<datalist id="tickmarks">
+  <option value="0" label="2000"></option>
+  <option value="1" label="2005"></option>
+  <option value="2" label="2010"></option>
+  <option value="3" label="2021"></option>
+</datalist>
 
   <div>
     <svg class="mapa" baseprofile="tiny" fill="#ececec" height="857" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".4" version="1.2" viewbox="0 0 2000 857" width="2000" xmlns="http://www.w3.org/2000/svg">
