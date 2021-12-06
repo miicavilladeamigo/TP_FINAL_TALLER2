@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 body{
-  margin: 0px;
-  padding: 0px;
+margin: 0px;
+padding: 0px;
 }
 .ConsumoAgua{
 background-color: #1C792B;
@@ -12,247 +12,229 @@ margin-right: 150px;
 }
 
 .consumodelaguaTexto{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 35px;
- color: white;
- padding-left: 20px;
- padding-bottom: 5px;
- padding-top: 5px;
+font-family: 'Open Sans', sans-serif;
+font-size: 35px;
+color: white;
+padding-left: 20px;
+padding-bottom: 5px;
+padding-top: 5px;
 }
 
 .volver{
-  float: right;
-  margin-top: -4.6em;
+float: right;
+margin-top: -4.6em;
 }
 .boton{
-  background-color: #1C792B;
-  color: #fff;
-  border: none;
-  padding: 16px;
-  cursor: pointer;
-  font-weight: 500;
-  margin-right: 4em;
+background-color: #1C792B;
+color: #fff;
+border: none;
+padding: 16px;
+cursor: pointer;
+font-weight: 500;
+margin-right: 4em;
 }
 
 .datos{
-  position: absolute;
-  margin-left: 3vw;
-  margin-top: 60vh;
+position: absolute;
+margin-left: 3vw;
+margin-top: 60vh;
 }
 
 .mapa{
-  margin-left:-6vw;
-  width:100vw;
+margin-left:-6vw;
+width:100vw;
 }
 .mapa:hover{
-  cursor: pointer;
+cursor: pointer;
 }
 
 #eeuu{
-  position: absolute;
-  margin-left: 30vw;
+position: absolute;
+margin-left: 30vw;
 }
 .usa{
-  fill: #8CFF9F;
-  stroke-width: 2px;
+/*fill: #8CFF9F;*/
+fill: hsl(128, 100%, 80%);
+stroke-width: 2px;
 }
 .usa:hover{
-  stroke-width: 3px;
+stroke-width: 3px;
 }
 
 #brasil{
-  position: absolute;
-  margin-left: 36vw;
-  margin-top: 20vh;
+position: absolute;
+margin-left: 36vw;
+margin-top: 20vh;
 }
-#BR{
-  fill: #50D867;
-  stroke-width: 2px;
+.BR{
+fill: hsl(128, 100%, 65%);
+stroke-width: 2px;
 }
-#BR:hover{
-    stroke-width: 3px;
+.BR:hover{
+  stroke-width: 3px;
 }
 
 #argentina{
-  position: absolute;
-  margin-left: 34vw;
-  margin-top: 45vh;
+position: absolute;
+margin-left: 34vw;
+margin-top: 45vh;
 }
 .Argentina{
-  fill: #8CFF9F;
-  stroke-width: 2px;
+fill: hsl(128, 100%, 80%);
+stroke-width: 2px;
 }
 .Argentina:hover{
-    stroke-width: 3px;
+  stroke-width: 3px;
 }
 
 #espana{
-  position: absolute;
-  margin-left: 47vw;
-  margin-top: 3vh;
+position: absolute;
+margin-left: 47vw;
+margin-top: 3vh;
 }
-#ES{
-    fill: #50D867;
-    stroke-width: 2px;
+.ES{
+  fill: hsl(128, 100%, 65%);
+  stroke-width: 2px;
 }
-#ES:hover{
-    stroke-width: 3px;
+.ES:hover{
+  stroke-width: 3px;
 }
 
 #irlanda{
-  position: absolute;
-  margin-left: 47vw;
-  margin-top: 3vh;
+position: absolute;
+margin-left: 47vw;
+margin-top: 3vh;
 }
-#IE{
-  fill: #2CBF45;
-  stroke-width: 2px;
+.IE{
+fill: hsl(128, 100%, 45%);
+stroke-width: 2px;
 }
-#IE:hover{
-    stroke-width: 3px;
+.IE:hover{
+  stroke-width: 3px;
 }
 
 #inglaterra{
-  position: absolute;
-  margin-left: 47vw;
-  margin-top: 3vh;
+position: absolute;
+margin-left: 47vw;
+margin-top: 3vh;
 }
 .UnitedKingdom{
-fill: #2CBF45;
+fill: hsl(128, 100%, 45%);
 stroke-width: 2px;
 }
 .UnitedKingdom:hover{
-    stroke-width: 3px;
+  stroke-width: 3px;
 }
 
 #suiza{
-  position: absolute;
-  margin-left: 47vw;
-  margin-top: 3vh;
+position: absolute;
+margin-left: 47vw;
+margin-top: 3vh;
 }
-#CH{
-    fill: #50D867;
-    stroke-width: 2px;
+.CH{
+fill: hsl(128, 100%, 65%);
+  stroke-width: 2px;
 }
-#CH:hover{
-    stroke-width: 3px;
+.CH:hover{
+  stroke-width: 3px;
 }
 
 #alemania{
-  position: absolute;
-  margin-left: 47vw;
-  margin-top: 3vh;
+position: absolute;
+margin-left: 47vw;
+margin-top: 3vh;
 }
-#DE{
-    fill: #8CFF9F;
-    stroke-width: 2px;
+.DE{
+fill: hsl(128, 100%, 80%);
+  stroke-width: 2px;
 }
-#DE:hover{
-    stroke-width: 3px;
+.DE:hover{
+  stroke-width: 3px;
 }
 
 #checa{
-  position: absolute;
-  margin-left: 47vw;
-  margin-top: 3vh;
+position: absolute;
+margin-left: 47vw;
+margin-top: 3vh;
 }
-#CZ{
-    fill: #2CBF45;
-    stroke-width: 2px;
+.CZ{
+fill: hsl(128, 100%, 45%);
+  stroke-width: 2px;
 }
-#CZ:hover{
-    stroke-width: 3px;
+.CZ:hover{
+  stroke-width: 3px;
 }
 
 #japon{
-  position: absolute;
-  margin-left: 57vw;
-  margin-top: 3vh;
+position: absolute;
+margin-left: 57vw;
+margin-top: 3vh;
 }
 .Japan{
-    fill: #50D867;
-    stroke-width: 2px;
+fill: hsl(128, 100%, 65%);
+  stroke-width: 2px;
 }
 .Japan:hover{
-    stroke-width: 3px;
+  stroke-width: 3px;
 }
 
 #india{
-  position: absolute;
-  margin-left: 45vw;
-  margin-top: 13vh;
+position: absolute;
+margin-left: 45vw;
+margin-top: 13vh;
 }
-#IN{
-  fill: #239937;
-  stroke-width: 2px;
+.IN{
+fill: hsl(128, 100%, 37%);
+stroke-width: 2px;
 }
-#IN:hover{
-    stroke-width: 3px;
+.IN:hover{
+  stroke-width: 3px;
 }
 
 .slideContainer{
-  width: 25%;
-  position: absolute;
-  margin-left: 38vw;
-  margin-top: 82vh;
-  border-width: 0;
+width: 25%;
+position: absolute;
+margin-left: 38vw;
+margin-top: 82vh;
+border-width: 0;
 }
 
 .slider{
-  height: 20px;
-  -webkit-appearance: none;
-  background: #B0D0B3;
-  width: 100%;
-  height: 20px;
-  outline: none;
-  opacity: 1;
-  -webkit-transition: 0.2s;
-  transition: opacity 0.2s;
-  border-radius: 12px;
-  box-shadow: 0 1px 3px 1px black;
+height: 20px;
+-webkit-appearance: none;
+background: #B0D0B3;
+width: 100%;
+height: 20px;
+outline: none;
+opacity: 1;
+-webkit-transition: 0.2s;
+transition: opacity 0.2s;
+border-radius: 12px;
+box-shadow: 0 1px 3px 1px black;
 }
 
 .slider:hover{
-  opacity: 0.8;
+opacity: 0.8;
 }
 
 .slider::-webkit-slider-thumb{
-  webkit-appearance: none;
-  appearance: none;
-  width: 15px;
-  height: 35px;
-  background: #1C792B;
-  border-radius: 35%;
-  cursor: pointer;
-}
-/*
-.slider::after{
-  content: '2021';
-  color: black;
-  font-size: 1.5em;
-  position: absolute;
-  left: 93%;
-  top: 121%;
-  font-family: 'Open Sans', sans-serif;
+webkit-appearance: none;
+appearance: none;
+width: 15px;
+height: 35px;
+background: #1C792B;
+border-radius: 35%;
+cursor: pointer;
 }
 
-.slider::before{
-  content: '2000';
-  color: black;
-  font-size: 1.5em;
-  position: absolute;
-  left: -4%;
-  top: 121%;
-  font-family: 'Open Sans', sans-serif;
-} */
 
 datalist {
-  display: flex;
-  justify-content: space-between;
-  color: black;
-  width: 26%;
-  position: absolute;
-  margin-left: 38vw;
-  margin-top: 86vh;
-  font-family: 'Open Sans', sans-serif;
+display: flex;
+justify-content: space-between;
+color: black;
+width: 26%;
+position: absolute;
+margin-left: 38vw;
+margin-top: 86vh;
+font-family: 'Open Sans', sans-serif;
 }
