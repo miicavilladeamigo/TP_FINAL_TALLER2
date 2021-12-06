@@ -10,7 +10,7 @@ $(document).ready(function () {
       };
 
       /* BRASIL */
-      $("#BR").hover(mouseEnter2, mouseLeave2);
+      $(".BR").hover(mouseEnter2, mouseLeave2);
       function mouseEnter2() {
            $("#brasil").fadeIn( "fast" ).show();
       };
@@ -28,7 +28,7 @@ $(document).ready(function () {
       };
 
       /* ESPAÑA */
-      $("#ES").hover(mouseEnter4, mouseLeave4);
+      $(".ES").hover(mouseEnter4, mouseLeave4);
       function mouseEnter4() {
            $("#espana").fadeIn( "fast" ).show();
       };
@@ -37,7 +37,7 @@ $(document).ready(function () {
       };
 
       /* IRLANDA */
-      $("#IE").hover(mouseEnter5, mouseLeave5);
+      $(".IE").hover(mouseEnter5, mouseLeave5);
       function mouseEnter5() {
            $("#irlanda").fadeIn( "fast" ).show();
       };
@@ -55,7 +55,7 @@ $(document).ready(function () {
       };
 
       /* Suiza */
-      $("#CH").hover(mouseEnter7, mouseLeave7);
+      $(".CH").hover(mouseEnter7, mouseLeave7);
       function mouseEnter7() {
            $("#suiza").fadeIn( "fast" ).show();
       };
@@ -64,7 +64,7 @@ $(document).ready(function () {
       };
 
       /* Alemania */
-      $("#DE").hover(mouseEnter8, mouseLeave8);
+      $(".DE").hover(mouseEnter8, mouseLeave8);
       function mouseEnter8() {
            $("#alemania").fadeIn( "fast" ).show();
       };
@@ -73,7 +73,7 @@ $(document).ready(function () {
       };
 
       /* Checa */
-      $("#CZ").hover(mouseEnter9, mouseLeave9);
+      $(".CZ").hover(mouseEnter9, mouseLeave9);
       function mouseEnter9() {
            $("#checa").fadeIn( "fast" ).show();
       };
@@ -91,7 +91,7 @@ $(document).ready(function () {
       };
 
       /* india */
-      $("#IN").hover(mouseEnter11, mouseLeave11);
+      $(".IN").hover(mouseEnter11, mouseLeave11);
       function mouseEnter11() {
            $("#india").fadeIn( "fast" ).show();
       };
